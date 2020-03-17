@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import connect from '@vkontakte/vk-connect';
 import App from './App';
 // import registerServiceWorker from './sw';
-
+//
 // Init VK  Mini App
 connect.send('VKWebAppInit');
 connect.send("VKWebAppGetCommunityAuthToken", {"app_id": 6931273, "group_id": 50495513, "scope": "app_widget, messages, manage"});
