@@ -8,7 +8,7 @@ import App from './App';
 
 // Init VK  Mini App
 connect.send('VKWebAppInit');
-connect.send("VKWebAppGetCommunityAuthToken", {"app_id": 7305126, "group_id": 111993830, "scope": "app_widget"});
+connect.send("VKWebAppGetCommunityAuthToken", {"app_id": 6931273, "group_id": 50495513, "scope": "app_widget, messages, manage"});
 
 // Если вы хотите, чтобы ваше веб-приложение работало в оффлайне и загружалось быстрее,
 // расскомментируйте строку с registerServiceWorker();
